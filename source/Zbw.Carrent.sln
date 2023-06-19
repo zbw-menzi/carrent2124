@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbw.Carrent", "src\Zbw.Carrent\Zbw.Carrent.csproj", "{1F3C128B-BF43-4336-9744-D31AA3913EBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbw.Carrent.Tests", "tests\Zbw.Carrent.Tests\Zbw.Carrent.Tests.csproj", "{1693BAB2-8655-437C-92A3-9C2ED99CC917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F3C128B-BF43-4336-9744-D31AA3913EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F3C128B-BF43-4336-9744-D31AA3913EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F3C128B-BF43-4336-9744-D31AA3913EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1693BAB2-8655-437C-92A3-9C2ED99CC917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1693BAB2-8655-437C-92A3-9C2ED99CC917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1693BAB2-8655-437C-92A3-9C2ED99CC917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1693BAB2-8655-437C-92A3-9C2ED99CC917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
