@@ -13,6 +13,8 @@
 
         public CustomerController(ICustomerRepository repository)
         {
+            ArgumentNullException.ThrowIfNull(repository);
+
             _repository = repository;
         }
 
