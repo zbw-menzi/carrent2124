@@ -45,5 +45,5 @@ jobs:
         run: |
           ./.sonar/scanner/dotnet-sonarscanner begin /k:"zbw-menzi_carrent2124" /o:"zbw-menzi" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build source/Zbw.Carrent.sln
-          dotnet test source/Zbw.Carrent.sln
+          dotnet test source/Zbw.Carrent.sln --collect "Code Coverage"
           ./.sonar/scanner/dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
