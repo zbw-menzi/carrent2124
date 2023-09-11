@@ -53,3 +53,4 @@ jobs:
         with:
           file: source/src/Zbw.Carrent/Dockerfile
           push: true
+          tags: latest 
