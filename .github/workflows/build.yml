@@ -48,3 +48,8 @@ jobs:
           dotnet build source/Zbw.Carrent.sln
           dotnet-coverage collect "dotnet test source/Zbw.Carrent.sln" -f xml -o "coverage.xml"
           ./.sonar/scanner/dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v4.2.1
+        with:
+          file: source/src/Zbw.Carrent/Dockerfile
+          push: true
